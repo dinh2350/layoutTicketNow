@@ -18,9 +18,7 @@ ul {
 header {
   z-index: 1;
   width: 100%;
-  background: black;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(3%, black), color-stop(56%, rgba(0, 0, 0, 0.5)), color-stop(90%, rgba(0, 0, 0, 0.3)), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(180deg, black 3%, rgba(0, 0, 0, 0.5) 56%, rgba(0, 0, 0, 0.3) 90%, rgba(255, 255, 255, 0) 100%);
+  background: #101010;
 }
 
 header .header__wrapper {
@@ -159,7 +157,56 @@ header .header__wrapper ul li b {
   outline: none;
 }
 
-.banner__wrapper {
-  position: relative;
+.booking {
+  background-color: #101010;
+}
+
+.booking__title {
+  text-align: center;
+  font-size: 3rem;
+  color: #e6b800;
+  padding: 5px 0px;
+}
+
+.booking .booking__wrapper {
+  width: 92%;
+  margin: 0px auto;
+}
+
+.stepper {
+  width: 75%;
+  margin: 5px auto;
+}
+
+.stepper .stepper__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stepper .stepper__wrapper .stepper__item .stepper__circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #e6b800;
+  text-align: center;
+  line-height: 30px;
+}
+
+.stepper .stepper__wrapper .stepper__item .stepper__circle span {
+  font-size: 2rem;
+  color: white;
+}
+
+.stepper .stepper__wrapper .stepper__item .stepper__info {
+  color: white;
+  font-size: 2rem;
+}
+
+.stepper__line {
+  width: 45%;
+  height: 2px;
+  margin-top: 15px;
+  background-color: white;
 }
 /*# sourceMappingURL=index.css.map */

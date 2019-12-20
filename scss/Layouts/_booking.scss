@@ -1,0 +1,16 @@
+.booking {
+  background-color: #101010;
+  &__title {
+    text-align: center;
+    font-size: 3rem;
+    color: #e6b800;
+    padding: 5px 0px;
+  }
+  .booking__wrapper {
+    width: 92%;
+    margin: 0px auto;
+  }
+}
+
+@import "../Components/booking/stepper";
+@import "../Components/booking/line";

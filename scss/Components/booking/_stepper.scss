@@ -1,0 +1,25 @@
+.stepper {
+  width: 75%;
+  margin: 5px auto;
+  .stepper__wrapper {
+    display: flex;
+    .stepper__item {
+      .stepper__circle {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: #e6b800;
+        text-align: center;
+        line-height: 30px;
+        span {
+          font-size: 2rem;
+          color: white;
+        }
+      }
+      .stepper__info {
+        color: white;
+        font-size: 2rem;
+      }
+    }
+  }
+}
