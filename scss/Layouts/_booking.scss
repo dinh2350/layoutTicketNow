@@ -1,5 +1,12 @@
 .booking {
-  background-color: #101010;
+  background: rgb(16, 16, 16);
+  background: linear-gradient(
+    180deg,
+    rgba(16, 16, 16, 1) 90%,
+    rgba(255, 255, 255, 0) 95%,
+    rgba(16, 16, 16, 1) 100%
+  );
+  padding-bottom: 5%;
   &__title {
     text-align: center;
     font-size: 3rem;

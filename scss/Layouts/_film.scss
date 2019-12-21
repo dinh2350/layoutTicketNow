@@ -1,0 +1,16 @@
+.film {
+  background-color: rgb(16, 16, 16);
+  &__wrapper {
+    width: 92%;
+    margin: 0px auto;
+    padding: 25px 0px;
+    .film__controlPanel {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+@import "./../Components/film/controlPanel";
+@import "./../Components/film/list";
+@import "./../Components/film/item";
