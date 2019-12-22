@@ -1,0 +1,15 @@
+.banner {
+  .banner__wrapper {
+    position: relative;
+    .banner__avatar {
+      position: absolute;
+      left: 2%;
+      top: 40%;
+      img {
+        width: 75%;
+      }
+    }
+  }
+}
+@import "../../Components/banner/info";
+@import "../../Components/banner/summary";

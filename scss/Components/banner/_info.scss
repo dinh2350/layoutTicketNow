@@ -1,0 +1,11 @@
+.banner__info {
+  position: relative;
+  img {
+    max-width: 100%;
+  }
+  .banner__detail {
+    position: absolute;
+    bottom: 0px;
+    left: 30%;
+  }
+}

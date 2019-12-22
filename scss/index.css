@@ -158,6 +158,62 @@ header .header__wrapper ul li b {
   outline: none;
 }
 
+.booking {
+  background: #101010;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, #101010), color-stop(95%, rgba(255, 255, 255, 0)), to(#101010));
+  background: linear-gradient(180deg, #101010 90%, rgba(255, 255, 255, 0) 95%, #101010 100%);
+  padding-bottom: 5%;
+}
+
+.booking__title {
+  text-align: center;
+  font-size: 3rem;
+  color: #e6b800;
+  padding: 5px 0px;
+}
+
+.booking .booking__wrapper {
+  width: 92%;
+  margin: 0px auto;
+}
+
+.stepper {
+  width: 75%;
+  margin: 5px auto;
+}
+
+.stepper .stepper__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stepper .stepper__wrapper .stepper__item .stepper__circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #e6b800;
+  text-align: center;
+  line-height: 30px;
+}
+
+.stepper .stepper__wrapper .stepper__item .stepper__circle span {
+  font-size: 2rem;
+  color: white;
+}
+
+.stepper .stepper__wrapper .stepper__item .stepper__info {
+  color: white;
+  font-size: 2rem;
+}
+
+.stepper__line {
+  width: 45%;
+  height: 2px;
+  margin-top: 15px;
+  background-color: white;
+}
+
 .film {
   background-color: #101010;
 }
@@ -386,59 +442,42 @@ footer .footer__wrapper p {
   text-align: center;
 }
 
-.booking {
-  background: #101010;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, #101010), color-stop(95%, rgba(255, 255, 255, 0)), to(#101010));
-  background: linear-gradient(180deg, #101010 90%, rgba(255, 255, 255, 0) 95%, #101010 100%);
-  padding-bottom: 5%;
+.banner .banner__wrapper {
+  position: relative;
 }
 
-.booking__title {
-  text-align: center;
-  font-size: 3rem;
-  color: #e6b800;
-  padding: 5px 0px;
+.banner .banner__wrapper .banner__avatar {
+  position: absolute;
+  left: 2%;
+  top: 40%;
 }
 
-.booking .booking__wrapper {
-  width: 92%;
-  margin: 0px auto;
-}
-
-.stepper {
+.banner .banner__wrapper .banner__avatar img {
   width: 75%;
-  margin: 5px auto;
 }
 
-.stepper .stepper__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.banner__info {
+  position: relative;
 }
 
-.stepper .stepper__wrapper .stepper__item .stepper__circle {
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  background-color: #e6b800;
-  text-align: center;
-  line-height: 30px;
+.banner__info img {
+  max-width: 100%;
 }
 
-.stepper .stepper__wrapper .stepper__item .stepper__circle span {
-  font-size: 2rem;
+.banner__info .banner__detail {
+  position: absolute;
+  bottom: 0px;
+  left: 30%;
+}
+
+.banner__summary {
+  background-color: #1d1e22;
+}
+
+.banner__summary .banner__summary--wrapper {
+  width: 60%;
+  margin: 0px auto;
+  padding: 40px 0px;
   color: white;
-}
-
-.stepper .stepper__wrapper .stepper__item .stepper__info {
-  color: white;
-  font-size: 2rem;
-}
-
-.stepper__line {
-  width: 45%;
-  height: 2px;
-  margin-top: 15px;
-  background-color: white;
 }
 /*# sourceMappingURL=index.css.map */
