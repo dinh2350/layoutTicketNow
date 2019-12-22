@@ -552,4 +552,71 @@ footer .footer__wrapper p {
   background-color: #e5ba3d;
   color: black;
 }
+
+.movie {
+  background-color: #1d1e22;
+  padding: 35px;
+}
+
+.movie .movie__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.movie .movie__wrapper .movie__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 30px;
+}
+
+.movie .movie__wrapper .movie__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.bookSeat {
+  background-color: #141414;
+  padding: 30px;
+}
+
+.bookSeat .bookSeat__wrapper h2 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.bookSeat__guide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  margin: 30px auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.bookSeat__guide .bookSeat__guide--item div span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #e5ba3d;
+  border-radius: 5px;
+}
+
+.bookSeat__guide .bookSeat__guide--item div p {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.bookSeat__guide .bookSeat__guide--item .bookSeat__selected span {
+  background-color: #e5ba3d;
+  opacity: 0.5;
+}
+
+.bookSeat__guide .bookSeat__guide--item .bookSeat__yourSeat span {
+  background-color: #e5ba3d;
+}
 /*# sourceMappingURL=index.css.map */

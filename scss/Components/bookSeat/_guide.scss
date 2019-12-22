@@ -1,0 +1,32 @@
+.bookSeat__guide {
+  display: flex;
+  width: 40%;
+  margin: 30px auto;
+  justify-content: space-around;
+  .bookSeat__guide--item {
+    div {
+      span {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #e5ba3d;
+        border-radius: 5px;
+      }
+      p {
+        color: white;
+        font-size: 1.5rem;
+      }
+    }
+    .bookSeat__selected {
+      span {
+        background-color: #e5ba3d;
+        opacity: 0.5;
+      }
+    }
+    .bookSeat__yourSeat {
+      span {
+        background-color: #e5ba3d;
+      }
+    }
+  }
+}
