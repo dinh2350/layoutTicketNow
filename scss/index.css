@@ -317,6 +317,74 @@ header .header__wrapper ul li b {
   display: block;
 }
 
+footer {
+  background-color: black;
+  padding: 20px;
+}
+
+footer .footer__wrapper .footer__info {
+  padding-bottom: 20px;
+}
+
+footer .footer__wrapper .footer__info p {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+footer .footer__wrapper .footer__info p a {
+  color: #6d6d6d;
+  padding: 0px 10px;
+  border-right: 1px solid #6d6d6d;
+}
+
+footer .footer__wrapper .footer__info p a:hover {
+  color: #e5ba3d;
+}
+
+footer .footer__wrapper .footer__info p .footer__info--noBorder {
+  border: none;
+}
+
+footer .footer__wrapper .footer__social {
+  padding-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 150px;
+  margin: 0px auto;
+}
+
+footer .footer__wrapper .footer__social .footer__circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #141414;
+  text-align: center;
+}
+
+footer .footer__wrapper .footer__social .footer__circle i {
+  line-height: 40px;
+  font-size: 1.8rem;
+  color: white;
+}
+
+footer .footer__wrapper .footer__social .footer__circle:hover {
+  background-color: white;
+}
+
+footer .footer__wrapper .footer__social .footer__circle:hover i {
+  color: #e5ba3d;
+}
+
+footer .footer__wrapper p {
+  font-size: 1.5rem;
+  color: #6d6d6d;
+  text-align: center;
+}
+
 .booking {
   background: #101010;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, #101010), color-stop(95%, rgba(255, 255, 255, 0)), to(#101010));
