@@ -1,0 +1,29 @@
+.date__list {
+  .date__list--wrapper {
+    .date__item {
+      background: black;
+      padding: 20px;
+      margin-bottom: 10px;
+      h3 {
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 10px;
+      }
+      .time__list {
+        button {
+          padding: 5px 10px;
+          margin-right: 10px;
+          border-radius: 15px;
+          background: none;
+          border: 1px solid #e5ba3d;
+          color: #e5ba3d;
+          &:hover {
+            cursor: pointer;
+            background-color: #e5ba3d;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

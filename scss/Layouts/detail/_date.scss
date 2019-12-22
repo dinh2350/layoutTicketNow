@@ -1,0 +1,16 @@
+.date {
+  background-color: #141414;
+  padding: 30px 0px;
+  .date__wrapper {
+    width: 90%;
+    margin: 0px auto;
+    h2 {
+      color: white;
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@import "../../Components/banner/control";
+@import "../../Components/banner/list";
