@@ -577,6 +577,15 @@ footer .footer__wrapper p {
   height: 100%;
 }
 
+.movie .movie__wrapper .movie__info {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.movie .movie__wrapper .movie__info p {
+  margin: 8px 0px;
+}
+
 .bookSeat {
   background-color: #141414;
   padding: 30px;
@@ -618,5 +627,55 @@ footer .footer__wrapper p {
 
 .bookSeat__guide .bookSeat__guide--item .bookSeat__yourSeat span {
   background-color: #e5ba3d;
+}
+
+.bookSeat__select {
+  width: 70%;
+  margin: 0px auto;
+}
+
+.bookSeat__select table {
+  margin-bottom: 30px;
+}
+
+.bookSeat__select table tbody tr td div {
+  margin: 0px 2px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border: 1px solid #e5ba3d;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.bookSeat__select table tbody tr td div:hover {
+  cursor: pointer;
+  background-color: #e5ba3d;
+  color: black;
+}
+
+.bookSeat__select table tbody tr td .bookSeat__select--space {
+  border: none;
+}
+
+.bookSeat__select table tbody tr td .bookSeat__select--space:hover {
+  background: none;
+}
+
+.bookSeat__select table tbody tr td .bookSeat__select--col {
+  border: none;
+  font-size: 1.5rem;
+}
+
+.bookSeat__select table tbody tr td .bookSeat__select--col:hover {
+  color: white;
+  background: none;
+}
+
+.bookSeat__select div {
+  width: 70%;
+  margin: 0px auto;
 }
 /*# sourceMappingURL=index.css.map */
